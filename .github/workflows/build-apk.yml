@@ -30,7 +30,7 @@ jobs:
       - name: Extract project
         run: |
           mkdir project
-          unzip VLCSubtitleExtractor-project.zip -d project
+          unzip VLCSubtitleExtractor-project-corrigido.zip -d project
 
       - name: Build APK
         working-directory: project
